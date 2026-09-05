@@ -1,0 +1,17 @@
+{
+	"name": "Lotato",
+	"namespace": "JonathanFox",
+	"version_number": "1.0.0",
+	"description": "some characters from Legends On League",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": [ "JonathanFox" ],
+			"compatible_mod_loader_version": "6.2.2",
+			"compatible_game_version": [ "1.1.13.2" ],
+			"config_defaults": {}
+		}
+	}
+}

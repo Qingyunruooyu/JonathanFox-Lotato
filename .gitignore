@@ -1,0 +1,9 @@
+*.import
+.import
+.assets
+.autoconverted
+*.translation
+*.mp3
+*.godot
+*.webp
+*.stex

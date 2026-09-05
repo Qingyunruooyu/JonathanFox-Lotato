@@ -1,0 +1,42 @@
+[gd_resource type="Resource" load_steps=18 format=2]
+
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_0.tres" type="Resource" id=1]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_1.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_4.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_6.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_5.tres" type="Resource" id=5]
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=6]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_3.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_icon.png" type="Texture" id=8]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_eyes.tres" type="Resource" id=9]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_beard.tres" type="Resource" id=10]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_2.tres" type="Resource" id=11]
+[ext_resource path="res://weapons/melee/spiky_shield/1/spiky_shield_data.tres" type="Resource" id=12]
+[ext_resource path="res://dlcs/dlc_1/weapons/melee/spoon/1/spoon_data.tres" type="Resource" id=13]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_0a.tres" type="Resource" id=14]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_horn.tres" type="Resource" id=15]
+[ext_resource path="res://weapons/melee/rock/1/rock_data.tres" type="Resource" id=16]
+[ext_resource path="res://weapons/melee/fighting_stick/1/fighting_stick_data.tres" type="Resource" id=17]
+
+[resource]
+script = ExtResource( 6 )
+my_id = "character_lotato_monster_monolith"
+unlocked_by_default = true
+can_be_looted = true
+icon = ExtResource( 8 )
+name = "CHARACTER_LOTATO_MONSTER_MONOLITH"
+tier = 0
+value = 1.0
+effects = [ ExtResource( 1 ), ExtResource( 14 ), ExtResource( 2 ), ExtResource( 11 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ) ]
+tracking_text = ""
+is_lockable = true
+unlock_codex_descr_after_get_it = 1
+is_cursed = false
+curse_factor = 0.0
+max_nb = -1
+item_appearances = [ ExtResource( 10 ), ExtResource( 9 ), ExtResource( 15 ) ]
+tags = [  ]
+wanted_tags = [  ]
+banned_item_groups = [ "ranged_damage" ]
+banned_items = [ "item_seashell" ]
+starting_weapons = [ ExtResource( 16 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 17 ) ]

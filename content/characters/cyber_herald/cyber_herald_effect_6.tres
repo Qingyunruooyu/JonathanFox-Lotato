@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://items/global/effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "item_turret_healing"
+text_key = "EFFECT_LOTATO_HEALED_ONLY_BY"
+value = 1
+custom_key = "lotato_healed_only_by"
+storage_method = 4
+effect_sign = 1
+custom_args = [  ]

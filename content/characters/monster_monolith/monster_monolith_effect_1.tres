@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/effects/weapon_bonus.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "weapon_rock"
+text_key = "EFFECT_LOTATO_WEAPON_BONUS"
+value = 250
+custom_key = ""
+storage_method = 0
+effect_sign = 0
+custom_args = [  ]
+weapon_type = 0
+stat_displayed_name = "stat_range"
+stat_name = "max_range"

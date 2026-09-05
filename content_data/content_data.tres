@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content_data/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/effects/weapon_bonus.gd" type="Script" id=5]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/weapon_moon/weapon_moon_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/tato_warden/tato_warden_data.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 7 ) ]
+items = [  ]
+weapons = [  ]
+sets = [  ]
+upgrades = [  ]
+consumables = [  ]
+elites = [  ]
+difficulties = [  ]
+effects = [ ExtResource( 5 ) ]
+challenges = [  ]
+tracked_items = {
+}
+translation_keys_needing_operator = {
+"effect_lotato_specific_weapon_effect": [ 0 ],
+"effect_lotato_stats_near_tree": [ 0 ],
+"effect_lotato_weapon_bonus": [ 0 ]
+}
+translation_keys_needing_percent = {
+"effect_lotato_weapon_bonus_slow_down": [ 0 ]
+}

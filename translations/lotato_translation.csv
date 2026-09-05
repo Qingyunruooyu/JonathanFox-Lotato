@@ -1,0 +1,16 @@
+﻿key,zh_Hans_CN,en
+CHARACTER_LOTATO_GREEN_GOD,翠林之神,The Green God
+EFFECT_LOTATO_IGNORE_TREES,无法攻击树木,You can't attack trees
+EFFECT_LOTATO_STATS_NEAR_TREE,与树木的距离不大于{2}时有{0}{1},{0} {1} when your proximity to any tree <= {2}
+EFFECT_LOTATO_WEAPON_CLASS_ONLY,仅能装备{1}类武器,You can equit {1} weapon only
+CHARACTER_LOTATO_CYBER_HERALD,赛博先驱,The Cyber Herald
+EFFECT_LOTATO_HEALED_ONLY_BY,仅能通过{1}恢复生命值,Only {1} can recover your health
+LOTATO_SCI_TECH,科技,Sci-Tech
+EFFECT_LOTATO_ITEM_CLASS_ONLY,仅能装备{1}类道具和武器,You can equit {1} items and weapons only
+EFFECT_LOTATO_LEVEL_UP_GET_CRATE,升级奖励改为获得1宝箱,Get a crate instead when level up
+CHARACTER_LOTATO_MONSTER_MONOLITH,岩石巨怪,Monster of the Monolith
+EFFECT_LOTATO_WEAPON_BONUS,使用{2}时{0}{1},{0} {1} with {2}
+EFFECT_LOTATO_WEAPON_BONUS_SLOW_DOWN,敌人被{1}击中后，{2}秒内减速{0}, Enemy hit by {1} get {0} slower in {2} seconds
+CHARACTER_LOTATO_WEAPON_MOON,月武者,The Weapon of the Moon
+EFFECT_LOTATO_SPECIFIC_WEAPON_EFFECT,装备有{3}时，{0}{1},{0} {1} when you have {3}
+CHARACTER_LOTATO_TATO_WARDEN,土豆典狱长,The Tato Warden
