@@ -24,6 +24,7 @@
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_mouth.tres" type="Resource" id=22]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_right.tres" type="Resource" id=23]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_left.tres" type="Resource" id=24]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_effect_3a.tres" type="Resource" id=25]
 
 [resource]
 script = ExtResource( 6 )
@@ -34,7 +35,7 @@ icon = ExtResource( 9 )
 name = "CHARACTER_LOTATO_GREEN_GOD"
 tier = 0
 value = 1.0
-effects = [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 21 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 1 ) ]
+effects = [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 21 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 25 ), ExtResource( 3 ), ExtResource( 1 ) ]
 tracking_text = ""
 is_lockable = true
 unlock_codex_descr_after_get_it = 1

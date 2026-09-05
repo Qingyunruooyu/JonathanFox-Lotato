@@ -20,6 +20,7 @@ const EXTENSION_SCRIPTS: =[
 	"entity_service.gd",
 	"utils.gd",
 	"progress_data.gd",
+	"lootworm_target_behavior.gd"
 ]
 
 func _init():
