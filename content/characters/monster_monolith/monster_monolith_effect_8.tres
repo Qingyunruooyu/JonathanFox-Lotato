@@ -4,10 +4,10 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "lotato_enemy_gold_override"
-text_key = "effect_lotato_enemy_gold_override"
-value = 20
-custom_key = ""
-storage_method = 0
+key = "stat_armor"
+text_key = "EFFECT_LOTATO_BONUS_STAT_FOR_HIT_PROTECTION"
+value = 200
+custom_key = "lotato_bonus_stat_for_hit_protection"
+storage_method = 1
 effect_sign = 3
 custom_args = [  ]

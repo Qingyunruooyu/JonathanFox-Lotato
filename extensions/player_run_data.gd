@@ -27,6 +27,10 @@ static func init_effects()->Dictionary:
 			Utils.lotato_weapon_bonus_hash: [], #使用某个武器的属性增益
 			Utils.lotato_weapon_remove_speed_hash: [], #武器减少总移速
 			Utils.lotato_specific_weapon_effect_hash: [],
+			Utils.lotato_enemy_gold_override_hash: 0,
+			Utils.lotato_bonus_hit_protection_for_stat_hash: [],
+			Utils.lotato_bonus_stat_for_hit_protection_hash: [],
+			Utils.lotato_weapon_explode_on_hit_hash: [],
 		}
 		new_effects.merge(vanilla_effects)
 		new_effects.merge(init_lotato_stats())

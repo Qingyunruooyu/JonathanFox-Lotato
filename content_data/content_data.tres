@@ -21,12 +21,16 @@ difficulties = [  ]
 effects = [ ExtResource( 5 ) ]
 challenges = [  ]
 tracked_items = {
+"character_lotato_monster_monolith": 0
 }
 translation_keys_needing_operator = {
+"effect_lotato_bonus_stat_for_hit_protection": [ 0 ],
 "effect_lotato_specific_weapon_effect": [ 0 ],
 "effect_lotato_stats_near_tree": [ 0 ],
 "effect_lotato_weapon_bonus": [ 0 ]
 }
 translation_keys_needing_percent = {
+"effect_lotato_bonus_stat_for_hit_protection": [ 0 ],
+"effect_lotato_enemy_gold_override": [ 0 ],
 "effect_lotato_weapon_bonus_slow_down": [ 0 ]
 }

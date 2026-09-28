@@ -10,6 +10,10 @@ var lotato_item_class_only_hash: int = Keys.generate_hash("lotato_item_class_onl
 var lotato_weapon_bonus_hash: int = Keys.generate_hash("lotato_weapon_bonus")
 var lotato_weapon_remove_speed_hash: int = Keys.generate_hash("lotato_weapon_remove_speed")
 var lotato_specific_weapon_effect_hash: int = Keys.generate_hash("lotato_specific_weapon_effect")
+var lotato_enemy_gold_override_hash: int = Keys.generate_hash("lotato_enemy_gold_override")
+var lotato_bonus_hit_protection_for_stat_hash: int = Keys.generate_hash("lotato_bonus_hit_protection_for_stat")
+var lotato_bonus_stat_for_hit_protection_hash: int = Keys.generate_hash("lotato_bonus_stat_for_hit_protection")
+var lotato_weapon_explode_on_hit_hash: int = Keys.generate_hash("lotato_weapon_explode_on_hit")
 
 # entity service
 var lotato_reset_speed_hash = Keys.generate_hash("lotato_reset_speed_hash")
