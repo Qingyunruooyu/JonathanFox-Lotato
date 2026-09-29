@@ -1,6 +1,5 @@
 [gd_resource type="Resource" load_steps=21 format=2]
 
-[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_0.tres" type="Resource" id=1]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_1.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_4.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_6.tres" type="Resource" id=4]
@@ -13,7 +12,6 @@
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_2.tres" type="Resource" id=11]
 [ext_resource path="res://weapons/melee/spiky_shield/1/spiky_shield_data.tres" type="Resource" id=12]
 [ext_resource path="res://dlcs/dlc_1/weapons/melee/spoon/1/spoon_data.tres" type="Resource" id=13]
-[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_0a.tres" type="Resource" id=14]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_horn.tres" type="Resource" id=15]
 [ext_resource path="res://weapons/melee/rock/1/rock_data.tres" type="Resource" id=16]
 [ext_resource path="res://weapons/melee/fighting_stick/1/fighting_stick_data.tres" type="Resource" id=17]
@@ -30,7 +28,7 @@ icon = ExtResource( 8 )
 name = "CHARACTER_LOTATO_MONSTER_MONOLITH"
 tier = 0
 value = 1.0
-effects = [ ExtResource( 1 ), ExtResource( 14 ), ExtResource( 2 ), ExtResource( 11 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ) ]
+effects = [ ExtResource( 2 ), ExtResource( 11 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ) ]
 tracking_text = "DAMAGE_DEALT"
 is_lockable = true
 unlock_codex_descr_after_get_it = 1

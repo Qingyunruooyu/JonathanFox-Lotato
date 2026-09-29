@@ -14,7 +14,7 @@ EFFECT_LOTATO_WEAPON_BONUS_SLOW_DOWN,敌人被{1}击中后，{2}秒内减速{0},
 CHARACTER_LOTATO_WEAPON_MOON,月武者,The Weapon of the Moon
 EFFECT_LOTATO_SPECIFIC_WEAPON_EFFECT,装备有{3}时，{0}{1},{0} {1} when you have {3}
 CHARACTER_LOTATO_TATO_WARDEN,土豆典狱长,The Tato Warden
-EFFECT_LOTATO_ENEMY_GOLD_OVERRIDE,当你击杀敌人时，改为固定{0}几率掉落一个材料,"On enemy kill, fixed {0} chance to drop 1 material"
+EFFECT_LOTATO_ENEMY_GOLD_OVERRIDE,当你击杀敌人时，改为固定{0}几率掉落一个材料；你无法以其他方式掉落材料,"On enemy kill, fixed {0} chance to drop 1 material; you can't drop materials in any other ways"
 EFFECT_LOTATO_BONUS_HIT_PROTECTION_FOR_STAT,敌袭开始时，每永久持有{0}{1}，可获得一次伤害免疫,
 EFFECT_LOTATO_BONUS_STAT_FOR_HIT_PROTECTION,敌袭期间，当你拥有伤害免疫时{0}{1},
 EFFECT_LOTATO_WEAPON_EXPLODE_ON_HIT,近战武器命中敌人时会爆炸，造成{1}（{2}）伤害,
