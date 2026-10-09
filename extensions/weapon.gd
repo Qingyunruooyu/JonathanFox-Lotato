@@ -11,17 +11,15 @@ func _ready():
 
 func on_weapon_hit_something(_thing_hit: Node, damage_dealt: int, hitbox: Hitbox) -> void :
 	.on_weapon_hit_something(_thing_hit, damage_dealt, hitbox)
-	if not "enemy_id" in _thing_hit:
-		return
+
 	lotato_process_weapon_explode_on_hit(_thing_hit)
-	if lotato_weapon_remove_speed.empty():
+
+	if not _thing_hit is Enemy or lotato_weapon_remove_speed.empty():
 		return
 	_thing_hit.lotato_set_speed_modifier(lotato_weapon_remove_speed)
 
-# 近战武器命中敌人时爆炸，伤害取自效果自身的stats；数组条目为item_exploding_effect资源
-# stats缓存与explode_args都在Player上（每玩家一份），属性变化经RunData.stats_updated失效重算
 func lotato_process_weapon_explode_on_hit(thing_hit: Node) -> void :
-	if not (self is MeleeWeapon):
+	if not (stats is MeleeWeaponStats):
 		return
 
 	var explode_effects = RunData.get_player_effect(Utils.lotato_weapon_explode_on_hit_hash, player_index)
