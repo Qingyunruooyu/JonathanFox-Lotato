@@ -20,6 +20,6 @@ custom_key = ""
 storage_method = 0
 effect_sign = 3
 custom_args = [ SubResource( 3 ) ]
-nb_stat_scaled = 5
+nb_stat_scaled = 15
 stat_scaled = "materials"
 perm_stats_only = false
