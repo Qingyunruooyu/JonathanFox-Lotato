@@ -1,5 +1,4 @@
-class_name LotatoWeaponBonusEffect
-extends WeaponTypeBonusEffect
+extends "res://effects/items/weapon_type_bonus_effect.gd"
 
 static func get_id() -> String:
 	return "lotato_weapon_bonus_effect"

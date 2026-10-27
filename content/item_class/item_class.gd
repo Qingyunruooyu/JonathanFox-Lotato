@@ -1,4 +1,3 @@
-class_name LotatoItemClass
 extends Resource
 
 export (Array, Resource) var items
