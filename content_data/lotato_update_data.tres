@@ -1,8 +1,9 @@
-[gd_resource type="Resource" load_steps=4 format=2]
+[gd_resource type="Resource" load_steps=5 format=2]
 
 [ext_resource path="res://global/update_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content_data/lotato_item_set.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_icon.png" type="Texture" id=3]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_icon.png" type="Texture" id=4]
 
 [resource]
 script = ExtResource( 1 )
@@ -13,4 +14,4 @@ update_type = 1
 icon = ExtResource( 3 )
 color = Color( 1, 1, 1, 1 )
 baner_logo = ExtResource( 3 )
-baner_illu = ExtResource( 3 )
+baner_illu = ExtResource( 4 )
