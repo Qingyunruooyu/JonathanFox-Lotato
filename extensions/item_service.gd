@@ -5,18 +5,37 @@ var lotato_weapon_class_only_weapons:Dictionary = {}
 var lotato_item_class_only_items:Dictionary = {}
 var lotato_item_class_only_weapons:Dictionary = {}
 
+func init_unlocked_pool() -> void :
+	_lotato_clear_item_class_caches()
+	.init_unlocked_pool()
+
+func invalidate_items_cache() -> void :
+	.invalidate_items_cache()
+	_lotato_clear_item_class_caches()
+
+func invalidate_weapons_cache() -> void :
+	.invalidate_weapons_cache()
+	_lotato_clear_item_class_caches()
+
+func _lotato_clear_item_class_caches() -> void :
+	lotato_weapon_class_only_weapons.clear()
+	lotato_item_class_only_items.clear()
+	lotato_item_class_only_weapons.clear()
+
 func _lotato_generate_item_class_only_exclusions(item_set:String):
 	var items_of_class = {}
 	var allowed_tags = []
+	var banned_weapon_sets = []
 	var item_class_data = load("res://mods-unpacked/JonathanFox-Lotato/content/item_class/%s_item_class.tres" % [item_set])
 	if item_class_data:
 		allowed_tags = item_class_data.allowed_tags
+		banned_weapon_sets = item_class_data.banned_weapon_sets
 		for item in item_class_data.items:
 			items_of_class[item.my_id_hash] = true
 	else:
 		allowed_tags = [item_set]
 
-	for item in items:
+	for item in get_items():
 		if item.my_id_hash in items_of_class:
 			continue
 		for tag in item.tags:
@@ -25,18 +44,16 @@ func _lotato_generate_item_class_only_exclusions(item_set:String):
 				break
 	lotato_item_class_only_items[item_set] = [ ]
 	var exclude_items = lotato_item_class_only_items[item_set]
-	for item in items:
+	for item in get_items():
 		if not item.my_id_hash in items_of_class:
 			exclude_items.append([item, 0])
-			print(item.my_id)
 
 	lotato_item_class_only_weapons[item_set] = [ ]
 	var exclude_weapons = lotato_item_class_only_weapons[item_set]
-	for weapon in weapons:
+	for weapon in get_weapons():
 		for set in weapon.sets:
-			if set in item_class_data.banned_weapon_sets:
+			if set in banned_weapon_sets:
 				exclude_weapons.append([weapon, 0])
-				print(weapon.my_id)
 				break
 
 ###扩展###
@@ -48,7 +65,7 @@ func _get_rand_item_for_wave(wave: int, player_index: int, type: int, args: GetR
 			if not lotato_weapon_class_only_weapons.has(set_id):
 				lotato_weapon_class_only_weapons[set_id] = []
 				var exclude_weapons = lotato_weapon_class_only_weapons[set_id]
-				for weapon in weapons:
+				for weapon in get_weapons():
 					var exclude = true
 					for set in weapon.sets:
 						if set.my_id_hash == set_id:

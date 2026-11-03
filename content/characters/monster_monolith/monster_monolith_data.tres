@@ -22,6 +22,7 @@
 [resource]
 script = ExtResource( 6 )
 my_id = "character_lotato_monster_monolith"
+required_item_set = "jonathanfox_lotato"
 unlocked_by_default = true
 can_be_looted = true
 icon = ExtResource( 8 )
@@ -41,5 +42,6 @@ wanted_tags = [  ]
 banned_item_groups = [ "ranged_damage", "engineering", "speed" ]
 banned_items = [ "item_seashell", "item_ricochet", "item_sharp_bullet", "item_pumpkin", "item_bandana", "item_compass", "item_strange_book" ]
 banned_upgrades = [ "upgrade_speed", "upgrade_ranged_damage", "upgrade_engineering" ]
+banned_meca_stats = [ "stat_speed", "stat_ranged_damage", "stat_engineering" ]
 starting_weapons = [ ExtResource( 16 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 17 ) ]
 starting_items = [  ]

@@ -22,6 +22,7 @@
 [resource]
 script = ExtResource( 6 )
 my_id = "character_lotato_tato_warden"
+required_item_set = "jonathanfox_lotato"
 unlocked_by_default = true
 can_be_looted = true
 icon = ExtResource( 8 )

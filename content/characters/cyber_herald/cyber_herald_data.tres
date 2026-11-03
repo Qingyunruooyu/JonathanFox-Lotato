@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=23 format=2]
+[gd_resource type="Resource" load_steps=24 format=2]
 
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_effect_3.tres" type="Resource" id=1]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_effect_0.tres" type="Resource" id=2]
@@ -22,17 +22,19 @@
 [ext_resource path="res://weapons/melee/screwdriver/1/screwdriver_data.tres" type="Resource" id=21]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_effect_7.tres" type="Resource" id=22]
 [ext_resource path="res://dlcs/dlc_1/weapons/melee/brick/1/brick_data.tres" type="Resource" id=23]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_effect_8.tres" type="Resource" id=24]
 
 [resource]
 script = ExtResource( 6 )
 my_id = "character_lotato_cyber_herald"
+required_item_set = "jonathanfox_lotato"
 unlocked_by_default = true
 can_be_looted = true
 icon = ExtResource( 9 )
 name = "CHARACTER_LOTATO_CYBER_HERALD"
 tier = 0
 value = 1.0
-effects = [ ExtResource( 2 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 12 ), ExtResource( 7 ), ExtResource( 22 ) ]
+effects = [ ExtResource( 2 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 12 ), ExtResource( 24 ), ExtResource( 7 ), ExtResource( 22 ) ]
 tracking_text = ""
 is_lockable = true
 unlock_codex_descr_after_get_it = 1

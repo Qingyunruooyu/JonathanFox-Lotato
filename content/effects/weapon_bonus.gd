@@ -16,3 +16,6 @@ func unapply(player_index: int) -> void:
 
 func get_args(_player_index: int) -> Array:
 	return [str(value), tr(stat_displayed_name.to_upper()), tr(key.to_upper())]
+
+func get_args_tool() -> Array:
+	return [str(value), stat_displayed_name.to_upper(), key.to_upper()]

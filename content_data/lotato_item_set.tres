@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://global/item_set_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/green_god/green_god_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/cyber_herald/cyber_herald_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/weapon_moon/weapon_moon_data.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/tato_warden/tato_warden_data.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "jonathanfox_lotato_set"
+items = [  ]
+weapons = [  ]
+stats = [  ]
+characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ]
+challenges = [  ]

@@ -6,11 +6,9 @@ func on_levelled_up(player_index: int) -> void :
 	if not RunData.get_player_effect_bool(Utils.lotato_level_up_get_crate_hash, player_index):
 		return
 
-	var upgrade = _upgrades_to_process[player_index].pop_back()
-	_things_to_process_player_containers[player_index].upgrades.remove_element(upgrade.level)
-
+	var level = RunData.get_player_level(player_index)
 	var consumable_tier = Tier.UNCOMMON
-	if upgrade.level % 5 == 0:
+	if level % 5 == 0:
 		consumable_tier = Tier.LEGENDARY
 	var consumable_to_drop = ItemService.get_consumable_for_tier(consumable_tier)
 	var consumable_to_process = UpgradesUI.ConsumableToProcess.new()
