@@ -1,8 +1,8 @@
 extends "res://singletons/progress_data.gd"
 
 var lotato_data
-const LOTATO_MOD_NAME:="JonathanFox-Lotato"
-const LOTATO_MOD_PATH:="res://mods-unpacked/" + LOTATO_MOD_NAME + "/"
+const LOTATO_MOD_NAME="JonathanFox-Lotato"
+const LOTATO_MOD_PATH="res://mods-unpacked/" + LOTATO_MOD_NAME + "/"
 
 # =========================== Extension =========================== #
 func _ready() -> void:

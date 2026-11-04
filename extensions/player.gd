@@ -8,13 +8,13 @@ onready var _lotato_stats_near_tree_circle_shape:CircleShape2D = null
 # 拥有伤害免疫(_hit_protection>0)时加成的属性是否已生效
 var _lotato_stat_applied_for_hit_protection: bool = false
 # 生效时实际添加的[属性key, 数值]（移除时用，避免中途属性变化导致不对称）
-var _lotato_applied_stat_amounts: = []
+var _lotato_applied_stat_amounts= []
 var _lotato_hit_protection_timer: Timer = null
 # 近战武器命中爆炸（每玩家一份的计算缓存，属性变化经RunData.stats_updated失效重算）
 var lotato_weapon_explode_on_hit_stats = null
-var _lotato_explode_on_hit_args: = WeaponServiceExplodeArgs.new()
-var _lotato_explode_init_stats_args: = WeaponServiceInitStatsArgs.new()
-var _lotato_default_explode_effects: = [ExplodingEffect.new()]
+var _lotato_explode_on_hit_args= WeaponServiceExplodeArgs.new()
+var _lotato_explode_init_stats_args= WeaponServiceInitStatsArgs.new()
+var _lotato_default_explode_effects= [ExplodingEffect.new()]
 
 func _ready():
 	_lotato_stats_near_tree_ready()

@@ -1,12 +1,12 @@
 extends Node
 
 # MOD配置
-const MOD_NAME:="JonathanFox-Lotato"
-const MOD_PATH:="res://mods-unpacked/" + MOD_NAME + "/"
-const LOTATO_EXTENSION_DIR: = MOD_PATH + "extensions/"
-const LOTATO_TRANSLATION_DIR: = MOD_PATH + "translations/"
+const MOD_NAME="JonathanFox-Lotato"
+const MOD_PATH="res://mods-unpacked/" + MOD_NAME + "/"
+const LOTATO_EXTENSION_DIR= MOD_PATH + "extensions/"
+const LOTATO_TRANSLATION_DIR= MOD_PATH + "translations/"
 
-const EXTENSION_SCRIPTS: =[
+const EXTENSION_SCRIPTS=[
 	"item_service.gd",
 	"player_run_data.gd",
 	"player.gd",

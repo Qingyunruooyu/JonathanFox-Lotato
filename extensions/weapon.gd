@@ -26,7 +26,7 @@ func lotato_process_weapon_explode_on_hit(thing_hit: Node) -> void :
 	if explode_effects.empty():
 		return
 
-	var explosion_chance: = 0.0
+	var explosion_chance= 0.0
 	for effect in explode_effects:
 		explosion_chance += effect.chance
 	if not Utils.get_chance_success(explosion_chance):

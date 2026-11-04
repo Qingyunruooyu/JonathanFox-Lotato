@@ -8,7 +8,7 @@ func lotato_set_speed_modifier(speed_remove_effect: Array) -> void :
 		return
 	var speed_modifier = current_stats.speed * speed_remove_effect[0] / 100
 	current_stats.speed += speed_modifier
-	var gen := _lotato_speed_mod_gen
+	var gen = _lotato_speed_mod_gen
 	var timer: SceneTreeTimer = get_tree().create_timer(speed_remove_effect[1], false)
 	var _e = timer.connect("timeout", self, "_lotato_on_speed_mod_timeout", [speed_modifier, gen])
 

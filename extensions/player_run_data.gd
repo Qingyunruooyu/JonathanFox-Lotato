@@ -17,7 +17,7 @@ static func init_stats(all_null_values: bool = false)->Dictionary:
 static func init_effects()->Dictionary:
 	if (not Utils == null) :
 		var vanilla_effects = .init_effects()
-		var new_effects: = {
+		var new_effects= {
 			Utils.lotato_ignore_trees_hash: 0,
 			Utils.lotato_stats_near_tree_hash: [], #属性，属性值，与树的距离
 			Utils.lotato_weapon_class_only_hash: [], #只出现xx类武器（看最后一个）
