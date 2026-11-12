@@ -12,7 +12,6 @@ const EXTENSION_SCRIPTS=[
 	"player.gd",
 	"weapon.gd",
 	"neutral.gd",
-	"turret.gd",
 	"main.gd",
 	"weapon_service.gd",
 	"run_data.gd",
