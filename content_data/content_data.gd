@@ -42,6 +42,8 @@ func add_resources():
 			Utils.lotato_healed_only_by_hash,
 			Utils.lotato_stats_near_tree_hash,
 			Utils.lotato_enemy_gold_override_hash,
+			Utils.lotato_weapon_remove_speed_hash,
+			Utils.lotato_bonus_hit_protection_for_stat_hash,
 		])
 
 	if not tracked_items.empty():
