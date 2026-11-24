@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=19 format=2]
+[gd_resource type="Resource" load_steps=21 format=2]
 
 [ext_resource path="res://weapons/melee/torch/1/torch_data.tres" type="Resource" id=1]
 [ext_resource path="res://weapons/ranged/taser/1/taser_data.tres" type="Resource" id=2]
@@ -18,6 +18,8 @@
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/tato_warden/tato_warden_effect_2.tres" type="Resource" id=16]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/tato_warden/tato_warden_effect_4.tres" type="Resource" id=17]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/tato_warden/tato_warden_mouth.tres" type="Resource" id=18]
+[ext_resource path="res://weapons/ranged/molotov/1/molotov_data.tres" type="Resource" id=19]
+[ext_resource path="res://weapons/ranged/carbon_bow/1/carbon_bow_1_data.tres" type="Resource" id=20]
 
 [resource]
 script = ExtResource( 6 )
@@ -42,5 +44,5 @@ wanted_tags = [ "economy" ]
 banned_item_groups = [  ]
 banned_items = [ "item_evil_hat" ]
 banned_upgrades = [  ]
-starting_weapons = [ ExtResource( 11 ), ExtResource( 3 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 12 ) ]
+starting_weapons = [ ExtResource( 11 ), ExtResource( 3 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 12 ) ]
 starting_items = [  ]
