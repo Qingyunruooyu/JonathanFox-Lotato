@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=19 format=2]
+[gd_resource type="Resource" load_steps=21 format=2]
 
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_1.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_4.tres" type="Resource" id=3]
@@ -18,6 +18,8 @@
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_7.tres" type="Resource" id=18]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_8.tres" type="Resource" id=19]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/characters/monster_monolith/monster_monolith_effect_9.tres" type="Resource" id=20]
+[ext_resource path="res://weapons/melee/meat_tenderizer/1/meat_tenderizer_1_data.tres" type="Resource" id=21]
+[ext_resource path="res://weapons/melee/spear/1/spear_data.tres" type="Resource" id=22]
 
 [resource]
 script = ExtResource( 6 )
@@ -43,5 +45,5 @@ banned_item_groups = [ "ranged_damage", "engineering", "speed" ]
 banned_items = [ "item_seashell", "item_ricochet", "item_sharp_bullet", "item_pumpkin", "item_bandana", "item_compass", "item_strange_book" ]
 banned_upgrades = [ "upgrade_speed", "upgrade_ranged_damage", "upgrade_engineering" ]
 banned_meca_stats = [ "stat_speed", "stat_ranged_damage", "stat_engineering" ]
-starting_weapons = [ ExtResource( 16 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 17 ) ]
+starting_weapons = [ ExtResource( 16 ), ExtResource( 13 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 21 ), ExtResource( 22 ) ]
 starting_items = [  ]

@@ -1,8 +1,9 @@
-[gd_resource type="Resource" load_steps=4 format=2]
+[gd_resource type="Resource" load_steps=5 format=2]
 
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content_data/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content_data/lotato_update_data.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/effects/weapon_bonus.gd" type="Script" id=5]
+[ext_resource path="res://mods-unpacked/JonathanFox-Lotato/content/effects/dlc_depend_effect.gd" type="Script" id=6]
 
 [resource]
 script = ExtResource( 1 )
@@ -12,7 +13,7 @@ upgrades = [  ]
 consumables = [  ]
 elites = [  ]
 difficulties = [  ]
-effects = [ ExtResource( 5 ) ]
+effects = [ ExtResource( 5 ), ExtResource( 6 ) ]
 challenges = [  ]
 tracked_items = {
 "character_lotato_monster_monolith": 0
